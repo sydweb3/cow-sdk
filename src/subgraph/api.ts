@@ -18,9 +18,9 @@ export const SUBGRAPH_PROD_CONFIG: ApiBaseUrls = {
   [SupportedChainId.MAINNET]: SUBGRAPH_BASE_URL + '/cow',
   [SupportedChainId.GNOSIS_CHAIN]: SUBGRAPH_BASE_URL + '/cow-gc',
   [SupportedChainId.GOERLI]: SUBGRAPH_BASE_URL + '/cow-goerli',
+  [SupportedChainId.POLYZK_TESTNET]: SUBGRAPH_BASE_URL + '/cow-goerli',
   [SupportedChainId.FUJI]: SUBGRAPH_BASE_URL + '/cow-goerli',
   [SupportedChainId.MUMBAI]: SUBGRAPH_BASE_URL + '/cow-goerli',
-  [SupportedChainId.POLYZK_TESTNET]: SUBGRAPH_BASE_URL + '/cow-goerli',
 }
 
 /**
@@ -33,9 +33,9 @@ export const SUBGRAPH_STAGING_CONFIG: ApiBaseUrls = {
   [SupportedChainId.MAINNET]: SUBGRAPH_BASE_URL + '/cow-staging',
   [SupportedChainId.GNOSIS_CHAIN]: SUBGRAPH_BASE_URL + '/cow-gc-staging',
   [SupportedChainId.GOERLI]: '',
+  [SupportedChainId.POLYZK_TESTNET]: '',
   [SupportedChainId.FUJI]: '',
   [SupportedChainId.MUMBAI]: '',
-  [SupportedChainId.POLYZK_TESTNET]: '',
 }
 
 /**
