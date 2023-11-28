@@ -1,5 +1,5 @@
 import { SupportedChainId } from './chains'
-import contractNetworks from '@cowprotocol/contracts/networks.json'
+import contractNetworks from '../../networks.json'
 
 const { GPv2Settlement } = JSON.parse(contractNetworks as unknown as string) as typeof contractNetworks
 
@@ -14,6 +14,9 @@ export const ALL_SUPPORTED_CHAIN_IDS: SupportedChainId[] = [
   SupportedChainId.MAINNET,
   SupportedChainId.GOERLI,
   SupportedChainId.GNOSIS_CHAIN,
+  SupportedChainId.FUJI,
+  SupportedChainId.MUMBAI,
+  SupportedChainId.POLYZK_TESTNET,
 ]
 
 /**
