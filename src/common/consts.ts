@@ -1,5 +1,5 @@
 import { SupportedChainId } from './chains'
-import contractNetworks from '../../networks.json'
+import contractNetworks from '../networks.json'
 
 const { GPv2Settlement } = JSON.parse(contractNetworks as unknown as string) as typeof contractNetworks
 
