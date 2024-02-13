@@ -1,6 +1,6 @@
 {
   "name": "ccip-sdk",
-  "version": "4.0.14",
+  "version": "4.0.16",
   "license": "(MIT OR Apache-2.0)",
   "files": [
     "/dist",
@@ -10,11 +10,11 @@
   "main": "./dist/index.js",
   "module": "./dist/index.module.js",
   "exports": {
-    ".":{
+    ".": {
       "require": "./dist/index.js",
       "default": "./dist/index.js"
     },
-    "./networks.json":{
+    "./networks.json": {
       "require": "./networks.json",
       "default": "./networks.json"
     }
